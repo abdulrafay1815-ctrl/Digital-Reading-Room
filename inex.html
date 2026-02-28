@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Reading Room</title>
+<!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-white text-black flex flex-col items-center justify-center h-screen transition-colors duration-500">
+
+    <h1 class="text-3xl font-bold mb-6">
+        Welcome to the Digital Reading Room
+    </h1>
+
+    <p class="mb-6 text-lg text-center max-w-xl">
+        This is a peaceful place to read. Click the button below to switch the lights.
+    </p>
+
+    <button id="toggleBtn"
+        onclick="toggleLights()"
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+        Turn Off Lights
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
